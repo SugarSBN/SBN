@@ -62,6 +62,6 @@ bing_verify:
 
 # Links to include in footer navigation
 #gitment
-comment_gitment_repo: https://github.com/SugarSBN/SBN
+comment_gitment_repo: SBN
 comment_gitment_clientId: e5df6e9de89f699dc196
 comment_gitment_clientSecret: 7f74b0fbe67add9c604ce582574fc802e7af9c34
