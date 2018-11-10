@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 description: "博客页面"
 ---
@@ -40,3 +40,28 @@ description: "博客页面"
 </ul>
 {% endif %}
 <embed src="//music.163.com/style/swf/widget.swf?sid=26092806&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Live2D</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script> 
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="./assets/waifu.css">
+    <div class="waifu" id="waifu">
+        <div class="waifu-tips" style="opacity: 1;"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        
+    </div>
+    <script src="./assets/live2d.js"></script>
+    <script src="./assets/waifu-tips.js"></script>
+    <script type="text/javascript">initModel()</script>
+</body>
+</html>
