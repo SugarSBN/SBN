@@ -1,13 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "联系方式 " 
+description: "你的博客描述 " 
 header-img: "img/green.jpg"
 ---
 
-tel:15952265117
-QQ:913150678
-email:15952265117@126.com
+这一页填写你的自我介绍。
 
 
 
