@@ -149,3 +149,144 @@ var duoshuoQuery = {short_name:"cnfeat"};
         }
     }
 </style>
+
+<!-- Link Gitalk 的支持文件  -->
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+
+<div id="gitalk-container"></div>     <script type="text/javascript">
+
+    var gitalk = new Gitalk({
+
+
+
+    // gitalk的主要参数
+
+        clientID: 'e5df6e9de89f699dc196',
+
+        clientSecret: '7f74b0fbe67add9c604ce582574fc802e7af9c34',
+
+        repo: 'SBN',
+
+        owner: 'SugarSBN',
+
+        admin: ['SugarSBN'],
+
+        id:window.location.pathname,
+
+
+
+    });
+
+    gitalk.render('gitalk-container');
+
+</script> 
+
+<!-- Gitalk end -->
+<html>
+
+
+
+    <head>
+
+
+
+        <meta charset="utf-8">
+
+
+
+        <title>Pixi-Live2D</title>
+
+
+
+        <script type="text/javascript" src="pixi.min.js" charset="utf-8"></script>
+
+
+
+        <script type="text/javascript" src="live2d.min.js" charset="utf-8"></script>
+
+
+
+        <script type="text/javascript" src="pixi-live2d.js" charset="utf-8"></script>
+
+
+
+        <style>
+
+
+
+            * {
+
+
+
+                margin: 0;
+
+
+
+                padding: 0;
+
+
+
+                border: 0;
+
+
+
+            }
+
+
+
+            body {
+
+
+
+	            background:url(bg.jpg)no-repeat;
+
+
+
+                height: 100%;
+
+
+
+                width: 100%;
+
+
+
+                background-size:100% 100%;
+
+
+
+                position:absolute;
+
+
+
+            }
+
+
+
+        </style>
+
+
+
+    </head>
+
+
+
+    <body>
+
+
+
+        <div id="live2d"></div>
+
+
+
+        <script type="text/javascript" src="live2d-mod.js" charset="utf-8"></script>
+
+
+
+    </body>
+
+
+
+</html>
