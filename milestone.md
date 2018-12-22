@@ -6,10 +6,7 @@ header-img: "img/zhihu.jpg"
 ---
 
 
-<embed src="qbppt.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
-
-
-
+<iframe height=498 width=510 src="qbppt.swf">
 
 
 
