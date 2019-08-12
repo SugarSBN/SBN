@@ -5,9 +5,13 @@ description: "no milestones"
 header-img: "img/zhihu.jpg"
 ---
 
-
-<iframe height=498 width=510 src="qbppt.swf">
-
+<iframe 
+    width="800" 
+    height="450" 
+    src="img/qbppt.sef"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
 
 
 
